@@ -1,0 +1,13 @@
+{
+  "run_id": "synthetic-example",
+  "label": "Demonstração do formato — nenhum scan executado",
+  "synthetic": true,
+  "status": "partial",
+  "exit_code": 124,
+  "duration_seconds": 3,
+  "application": "sample-api",
+  "environment": "sandbox",
+  "coverage": {"planned_operations": 10, "exercised_operations": 4, "note": "Valores fictícios"},
+  "findings": [{"id": "EXAMPLE-1", "title": "Achado ilustrativo, não validado", "confidence": "unverified", "remediation": "Confirmar o comportamento e adicionar testes positivos e negativos."}],
+  "cost_estimate": {"status": "not-estimated", "reason": "Nenhuma infraestrutura foi usada neste exemplo."}
+}

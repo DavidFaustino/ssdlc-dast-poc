@@ -1,0 +1,15 @@
+{
+  "profile": "REPLACE_WITH_LOCAL_PROFILE",
+  "expected_account_id": "000000000000",
+  "region": "us-east-1",
+  "vpc_id": "vpc-00000000",
+  "subnet_id": "subnet-00000000",
+  "ami_id": "ami-00000000",
+  "instance_type": "m6i.xlarge",
+  "owner": "replace-owner",
+  "expires_on": "2026-10-10",
+  "report_retention_days": 30,
+  "egress_rules": [
+    {"cidr": "10.0.0.0/16", "from_port": 443, "to_port": 443}
+  ]
+}

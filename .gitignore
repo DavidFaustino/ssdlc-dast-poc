@@ -1,0 +1,46 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*.json
+*secret*.yaml
+*secret*.yml
+
+# Estado de infraestrutura
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Evidências de execução e dados não revisados
+output/
+outputs/
+artifacts/
+evidence/
+raw/
+runs/
+downloads/
+screenshots/
+*.har
+*.pcap
+*.pcapng
+*.log
+
+# Ferramentas locais
+.DS_Store
+.obsidian/
+.venv/
+__pycache__/
+node_modules/
+.local/
+*.raw.log
+.superpowers/
