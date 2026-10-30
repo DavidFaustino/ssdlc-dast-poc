@@ -8,6 +8,8 @@ Validar DAST em dois microserviços no playground AWS, medindo segurança, tempo
 
 ## Comece aqui
 
+**Para definir o que testar:** [Matriz de avaliação DAST](docs/MATRIZ-DE-TESTES.md), publicada em 30/10/2026: 22 famílias de segurança, 8 de qualidade da detecção e 12 de operação. Separa laboratório, dois serviços AWS e evolução para QA. É escopo de avaliação, não resultado de 42 testes executados.
+
 **Para usar o que já está pronto:** [RUNBOOK do Devin](docs/RUNBOOK-DEVIN.md). Ele contém os comandos completos desde SSO até revisão do Terraform, medição e publicação manual. Execute primeiro os testes locais, sem AWS:
 
 ```bash

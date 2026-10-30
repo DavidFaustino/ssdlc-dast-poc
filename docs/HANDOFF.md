@@ -1,5 +1,7 @@
 # Passagem de trabalho
 
+**Atualização de 30/10/2026:** [matriz de avaliação](MATRIZ-DE-TESTES.md) adicionada por solicitação do mantenedor para recuperar o escopo completo. Próximo passo: desdobrar casos aplicáveis e reconciliar as evidências do ambiente AWS com esta matriz. O mantenedor relata avanço na AWS; código e resultados dessa execução não foram incorporados/verificados nesta atualização. O quadro abaixo preserva o estado conhecido do pacote em 07/10, não uma constatação do estado atual da AWS.
+
 Atualizado em **07/10/2026**. Ponto de retomada: pacote operacional local disponível; usar [RUNBOOK do Devin](RUNBOOK-DEVIN.md) para preencher parâmetros, conferir ambiente e revisar o plan antes de provisionar.
 
 ## Situação em uma página

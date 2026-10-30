@@ -4,6 +4,8 @@
 
 ## Etapas e critérios de saída
 
+O escopo detalhado está na [Matriz de avaliação DAST](MATRIZ-DE-TESTES.md), adicionada em 30/10/2026. Desdobrar famílias em casos por alvo e perfil; registrar exclusões, controles esperados e evidências. Os sete cenários anteriores não substituem a avaliação de segurança, precisão e operação. A inclusão na matriz não significa implementação nem autorização de scan.
+
 | Etapa | Trabalho | Pronto quando | Dependência |
 |---|---|---|---|
 | 0 — Revisar | Arquitetura, escopo e substituto | Decisões registradas no handoff | Validação do solicitante |
